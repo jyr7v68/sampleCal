@@ -14,6 +14,7 @@ class ButtonHolder extends JButton {
         this.pureName = pureName;
         this.screenText = screenText;
     }
+    
 
     public String toString() {
         return "{type: " + this.type + ", pureName: " + this.pureName + ", button:" + this.getText() + ", screenText: "
